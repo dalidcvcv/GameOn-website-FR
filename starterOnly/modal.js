@@ -42,9 +42,6 @@ function closeModal() {
   document.body.style.position = "initial";
 }
 
-closeBtnConf.style.display = "none";
-confirmation.style.display = "none";
-
 function showError(input, message) {
   const errorMsg = input.parentElement.querySelector(".error_message");
   errorMsg.innerText = message;

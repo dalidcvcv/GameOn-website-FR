@@ -19,7 +19,7 @@ body {
   background-image: url("background.png");
   font-family: var(--font-default);
   font-size: 18px;
-  max-width: 1300px;
+  max-width: 1700px;
 }
 
 p {
@@ -462,7 +462,7 @@ input {
   width: 104%;
   font-weight: normal;
   padding: 0;
-  margin: 110px 0 160px 0;
+  margin-top: 49%;
 }
 
 .btn-signup {
@@ -471,7 +471,7 @@ input {
   font-size: 1.3rem;
   padding: 15px 23px;
   margin: 0;
-  margin-top: 100px;
+  margin-top: 65%;
 }
 
 .hero-img {
@@ -574,7 +574,7 @@ input {
 /*Fin de test modal de confirmation*/
 
 #confirmation {
-  display: flex;
+  display: none;
   align-items: center;
   height: 80%;
   margin: 0 50px;
@@ -588,6 +588,7 @@ input {
 }
 
 #closeBtnConf {
+  display: none;
   margin-top: 20rem;
   margin-bottom: 15px;
 }
