@@ -40,6 +40,8 @@ modalClose.forEach((btn) => btn.addEventListener("click", closeModal));
 function closeModal() {
   modalbg.style.display = "none";
   document.body.style.position = "initial";
+  confirmation.style.display = "none";
+  closeBtnConf.style.display = "none";
 }
 
 function showError(input, message) {
